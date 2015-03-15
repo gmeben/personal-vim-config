@@ -1,3 +1,19 @@
+" General
+" =======
+set encoding=utf8
+set history=700
+set backup "enable backups
+set backupdir=D:\my-programs\vim\backup "specify backup location
+set ic "ignore case
+
+" Interface
+" =========
+colorscheme codeschool
+set guioptions-=r "remove right-hand scroll bar
+set guioptions-=L "remove left-hand scroll bar
+set nu "show line numbers
+set cursorline "highlight current line
+
 if has("gui_running")
   if has("gui_gtk2")
     set guifont=Inconsolata\ 12
@@ -6,7 +22,20 @@ if has("gui_running")
   endif
 endif
 
-set smartindent tabstop=4 shiftwidth=4 expandtab ai
-set backupdir=$home\vim\backup
-set nu
-colorscheme codeschool
+" Indenting
+" =========
+set tabstop=4 shiftwidth=4 expandtab
+set smartindent
+set autoindent
+set wrap
+
+" Status Line
+" ===========
+set laststatus=2 "always show status line
+"format the status line (borrowed from tpope)
+set statusline=[%n]\ %<%.99f\ %h%w%m%r%y%-16(\ %l,%c-%v\ %)%P
+
+" Cool Stuff
+" ==========
+"automatically remove all trailing whitespace
+"autocmd BufWritePre * :%s/\s\+$//e  
