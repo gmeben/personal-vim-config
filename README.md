@@ -1,5 +1,5 @@
 # personal-vim-config
 
-* **.vimrc** - unix-like config file
-* **_gvimrc** - Windows GUI config file
-* **_vimrc** - Windows config file
+* **.vimrc** - configuration file
+* **_gvimrc** - Windows GUI configuration file
+* **_vimrc** - Windows configuration file
