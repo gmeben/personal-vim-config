@@ -3,7 +3,7 @@
 set encoding=utf8
 set history=700
 set backup "enable backups
-set backupdir=D:\my-programs\vim\backup "specify backup location
+set backupdir= "specify backup location
 set ic "ignore case
 
 " Interface
