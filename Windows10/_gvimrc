@@ -2,8 +2,9 @@
 " =======
 set encoding=utf8
 set history=700
-set backup "enable backups
-set backupdir= "specify backup location
+set nobackup
+set noundofile
+set noswapfile
 set ic "ignore case
 
 " Interface
