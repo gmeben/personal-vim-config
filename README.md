@@ -1,8 +1,16 @@
 # personal-vim-config
 
-## /Unix
+## /Linux
 
 * **.vimrc** - configuration file
+
+## /macOS
+
+* **.vimrc** - configuration file
+
+###Setup 
+
+1. Run `mkdir ~/.vim/backup` in a command line
 
 ## /Windows10
 
