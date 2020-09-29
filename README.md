@@ -13,7 +13,7 @@
 1. Clone repository
 2. Run `mkdir ~/.vim/backup` in a command line
 
-## Windows10
+## Windows 10
 
 These are files specific to Windows 10. These should be stored where the global installation is located. On a default MS-Windows 32-bit GUI Vim installation, that is most likely `C:\Program Files (x86)\Vim\`.
 
