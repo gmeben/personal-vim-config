@@ -2,16 +2,22 @@
 
 ## Linux
 
-* **.vimrc** - configuration file
+* **/vimfiles** - Contains the "codeschool" colorscheme, a directory for backups, and SCSS indentation rules.
+* **.vimrc** - Configuration file
+
+1. Clone repository
+2. Copy the file and directory in the `/Unix` directory into the home directory
 
 ## macOS
 
-* **.vimrc** - configuration file
+* **/vimfiles** - Contains the "codeschool" colorscheme, a directory for backups, and SCSS indentation rules.
+* **.vimrc** - Configuration file
 
 ### Setup 
 
 1. Clone repository
-2. Run `mkdir ~/.vim/backup` in a command line
+2. Copy the file and directory in the `/Unix` directory into the home directory
+    - It may be necessary to rename the `vimfiles` directory to `.vim`
 
 ## Windows 10
 
